@@ -25,7 +25,7 @@ El programa se base en una arquitectura monolítica, en el back con JavaEE (v.17
 	+ Patron de diseño DTO
 
 #### Ejecutar el programa    
-![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F{username}1212%2Fhit-counter !)
+![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F{username}1212%2Fhit-counter!)
 
 1. Ejcutar Scripts en base de datos Mysql(Worbench)
 2. Crear la ruta del fichero D:\PROGRAMACION\AppsEntrevistas
