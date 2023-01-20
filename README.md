@@ -2,10 +2,12 @@
 
 Proyecto, prueba técnica de oferta de trabajo.
 
-####Problema: 
+#### Problema
+
 El cliente nos ha solicitado recibir un fichero plano con la información de sus proveedores, el reporte no debe de tener ningún formato especifico y únicamente hace falta que se genere de forma plana con sus respectivas cabeceras.
 
-####Instrucciones técnicas: 
+#### Instrucciones técnicas
+
 Necesitamos desarrollar un pequeño programa en lenguaje Java que se conecte a una base de datos (mysql) y obtenga los datos para generar un fichero plano. 
  
 El ejecutable debe de recibir un parámetro el cual será el código del cliente, por ejemplo: ./programa.jar 1
@@ -22,11 +24,16 @@ El programa se base en una arquitectura monolítica, en el back con JavaEE (v.17
     + APÍ JDBC
 	+ Patron de diseño DTO
 
-#### Caracteristicas Del Proyecto
+#### Ejecutar el programa    
+![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F{username}1212%2Fhit-counter !)
 
-### Autores
+1. Ejcutar Scripts en base de datos Mysql(Worbench)
+2. Crear la ruta del fichero D:\PROGRAMACION\AppsEntrevistas
+3. Abrir la ruta del ejecutable Jar programa_jdbc\out\artifacts\programa_jdbc_jar
+4. En la ruta abrir un terminal o linea de comando (CMD)
+5. Ejecutar el jar con la linea de comando java -jar programa_jdbc.jar X
+
+### Autor
 
 * Daniel Beltran  ***Desarrollo - Pruebas - Documentación***
 ![](https://img.shields.io/github/stars/GenserBeltran?style=social)
-
-
