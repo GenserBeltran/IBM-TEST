@@ -1,0 +1,4 @@
+
+ProveedoresDto{idProveedor=1, nombre='Coca-cola', fechaAlta=2020-01-10, id_cliente=5}
+
+ProveedoresDto{idProveedor=2, nombre='Pepsi', fechaAlta=2021-02-20, id_cliente=5}

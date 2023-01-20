@@ -1,0 +1,22 @@
+Problema: El cliente nos ha solicitado recibir un fichero plano con la información de sus proveedores, el reporte no debe de tener ningún formato especifico y únicamente hace falta que se genere de forma plana con sus respectivas cabeceras.
+
+Instrucciones técnicas: Necesitamos desarrollar un pequeño programa en lenguaje Java que se conecte a una base de datos (mysql) y obtenga los datos para generar un fichero plano. 
+
+El ejecutable debe de recibir un parámetro el cual será el código del cliente, por ejemplo: ./programa.jar 1
+El programa debe de recibir el parámetro 1 y realizar una consulta a la tabla de proveedores en base de datos, estos datos deben de ser recolectados en una lista y recorrerlos para generar un fichero plano final con los registros volcados por la base de datos.
+Si el código no tiene registros, el programa debe de mostrar por consola que el cliente no tiene proveedores asignados.
+Tabla: proveedores
+Campos: id_proveedor, nombre, fecha de alta, id_cliente
+Proveedores:
+1, Coca-cola, dd/mm/yyyy,5
+2, Pepsi, dd/mm/yyyy, 5
+3, Redbull, dd/mm/yyyy, 6
+
+Forma de entrega: 
+-	Presentar antes del Viernes.
+-	El código fuente debe de publicarse en el repositorio Git del creador
+-	Indica en el fichero README.md como ejecutar el programa, ruta donde se genera el fichero plano y dependencias utilizadas. 
+-	Crea un fichero en la raíz de tu repositorio con el nombre script.sql y dentro el script de base de datos utilizado.
+-	Asegúrate que tu repositorio sea público y copia la URL del repositorio y enviarla por mail a esta misma dirección de correo indicando tu nombre.
+-	Asunto: IBM-TEST-Nombrecompleto
+Otros: Se puede utilizar control de dependencias como maven para facilidad de pruebas.
