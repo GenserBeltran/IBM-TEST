@@ -27,11 +27,14 @@ El programa se base en una arquitectura monolítica, en el back con JavaEE (v.17
 #### Ejecutar el programa    
 ![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F{username}1212%2Fhit-counter!)
 
-1. Ejcutar Scripts en base de datos Mysql(Worbench)
-2. Crear la ruta del fichero D:\PROGRAMACION\AppsEntrevistas
-3. Abrir la ruta del ejecutable Jar programa_jdbc\out\artifacts\programa_jdbc_jar
-4. En la ruta abrir un terminal o linea de comando (CMD)
-5. Ejecutar el jar con la linea de comando java -jar programa_jdbc.jar X
+1. Descargar proyecto y configurar en IDE 
+2. Ajustar los DATASOURCE en la clase CONEXION
+3. Crear la ruta del fichero D:\PROGRAMACION\AppsEntrevistas (Ajustar la ruta a comodidad - Clase MAIN)
+4. Compilar y generar el jar
+5. Ejcutar Scripts en base de datos Mysql(Worbench)
+6. Abrir la ruta del ejecutable Jar programa_jdbc\out\artifacts\programa_jdbc_jar
+7. En la ruta (6) abrir un terminal o linea de comando (CMD)
+8. Ejecutar el jar con la linea de comando java -jar programa_jdbc.jar (ARG)
 
 ### Autor
 
